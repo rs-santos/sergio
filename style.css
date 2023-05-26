@@ -29,13 +29,11 @@ body{
   height: 30px;
   width:100%;
   margin: 3px;
-  background-image: linear-gradient(to right,rgb(26, 42, 52),rgb(11, 60, 59));
+  background-image: linear-gradient(to right,rgb(46, 74, 92),rgb(22, 110, 109));
   border: none;
   border-radius: 5px;
-}
-.login .botao a{
-  color: rgb(235, 225, 225);
   text-decoration: none;
+  color: rgb(26, 21, 15);
 }
 .login fieldset{
   border:1px solid black;
@@ -45,9 +43,27 @@ body{
 .login fieldset legend{
   text-align:center;
   padding: 5px;
-  background-color: rgb(22, 49, 49);
+  background-color: rgb(59, 122, 122);
   border-radius: 10px;
+  color: rgb(0, 0, 0);
 }
 .link{
- visibility: hidden;
+  text-align: center;
+  padding: 10px;
+
+  
+  /*visibility: hidden;*/
+}
+.link a{
+  text-align: center;
+  text-align: 15px;
+  padding: 5px;
+  text-decoration: none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(to right,rgb(60, 133, 114),rgb(50, 45, 83));
+  border: none;
+  border-radius: 5px;
+  color: rgb(2, 2, 51);
 }
