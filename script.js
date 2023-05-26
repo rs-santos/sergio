@@ -1,14 +1,15 @@
-// var btn = document.querySelector('#botao');
-//      var container = document.querySelector('.login .fieldset form .link');
-//
- //     btn.addEventListener('click', function(){
-        
- //       if(container.style.display === 'block'){
- //         container.style.display = 'none';
- //       }else{( container.style.display = 'block');}
-  //    });
+function mostrar() {
+  var input = document. querySelector("#email");
+  var emailv = input.value;
+  var input2 = document. querySelector("#senha");
+  var senhav = input2.value;
+  if(emailv.length > 0){
+    if(senhav.length > 0){
+      element = document.querySelector('.link');
+      element.style.visibility = 'visible';
+    }else{
 
-  $('button').on('click',function(){
-    $('#link').show(); // aparece o div
-    window.open(seulink,'_blank'); // abre nova janela
-});
+    }
+  }else{
+  }
+}
